@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import os
 
-sample=np.array([[[1273859294,63,165.53],[1283858686,64,162.53],[1293852390,65,175.53],[1293855456,68,165.53]]])
+sample=np.array([[[1273859294/20000000,63,165.53],[1283858686/20000000,64,162.53],[1293852390/20000000,65,175.53],[1293855456/20000000,68,165.53]]])
 
 with tf.Session() as sess:
     new_saver=tf.train.import_meta_graph('C:/Users\Kislay/Desktop/Hackathon_2018/graph/agro_model.meta')
